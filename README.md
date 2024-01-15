@@ -38,9 +38,9 @@ We provide training weights of SIU with SimpleBaseline, HRNet, and EfficientViT-
 |HRNet |HRNet-W48 |384 × 288| 72.2 | 69.6 | 77.6 | 58.8 | 63.2 | 35.5G |63.6M |196.2|-| 
 |SIUours |HRNet-W48 |384 × 288| 73.0 | 74.5 | 77.4 | 58.8 | 64.0 | 33.9G| 59.2M |199.4|[weight](https:)| 
 |EfficientViT-L0-SAM |EfficientViT-L0 |384 × 288 |70.5 | 71.1 | 75.3 | 56.4 | 61.2 | 12.7G |32.0M |526.8|[weight](https:)| 
-|SIUours |EfficientViT-L0 |384 × 288 |69.7 | 60.2 | 72.9 | 54.9 | 59.4 | 10.2G |27.8M |635.9|[weight](https:)| 
+|SIUours |EfficientViT-L0 |384 × 288 |71.0 | 70.9|75.6 |57.8| 61.8 | 10.3G | 27.9M |616.0 |[weight](https:)| 
 |EfficientViT-L1-SAM |EfficientViT-L1 |384 × 288 |71.1 | 71.7 | 75.6 | 56.5 | 61.1 | 14.2G |42.3M |460.3|[weight](https:)| 
-|SIUours |EfficientViT-L1 |384 × 288 |70.2 | 67.6 |73.7 | 54.1 | 60.1 |11.7G |38.1M |544.8|[weight](https:)| 
+|SIUours |EfficientViT-L1 |384 × 288 |71.1 | 70.8 | 76.3 | 57.4 | 61.8  | 11.8G| 38.1M | 528.0|[weight](https:)| 
 
 ## Installation<br>
 #### - Install SIU-main from source<br>
