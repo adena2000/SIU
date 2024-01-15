@@ -104,6 +104,37 @@ class HeatmapHead(BaseHead):
                 stride=1,
                 padding=0
             )
+          # efficientvit
+          # self.depth_conv1 = ConvModule(
+          #       in_channels=in_channels//64,
+          #       out_channels=in_channels//64,
+          #       kernel_size=7,
+          #       stride=1,
+          #       padding=3,
+          #       groups=in_channels//64,
+          #   )
+          #   self.point_conv1 = ConvModule(
+          #       in_channels=in_channels//64,
+          #       out_channels=64,
+          #       kernel_size=1,
+          #       stride=1,
+          #       padding=0,
+          #   )
+          #   self.depth_conv = ConvModule(
+          #       in_channels=64,
+          #       out_channels=64,
+          #       kernel_size=7,
+          #       stride=1,
+          #       padding=3,
+          #       groups=64,
+          #   )
+          #   self.point_conv = ConvModule(
+          #       in_channels=64,
+          #       out_channels=up_out_channals,
+          #       kernel_size=1,
+          #       stride=1,
+          #       padding=0,
+          #   )
             in_channels = up_out_channals
 
 
@@ -253,6 +284,11 @@ class HeatmapHead(BaseHead):
         x= feats[-1]
         # efficientvit
         # x = feats["stage_final"]
+        # x= self.pixel_shuffle(x,self.upscale)
+        # x=self.depth_conv1(x)
+        # x=self.point_conv1(x)
+        # x=self.depth_conv(x)
+        # x=self.point_conv(x)
         # SIU
         x= self.pixel_shuffle(x,self.upscale)
         x=self.depth_conv(x)
