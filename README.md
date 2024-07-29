@@ -17,7 +17,7 @@ Computer Science and Engineering, Nanjing University of Science and Technology
 ![Qualitative results](https://github.com/adena2000/SIU/blob/main/assets/results.png)<br>
 
 ## Quantitative results and training weights<br>
-We provide training weights of SIU with SimpleBaseline, HRNet, and EfficientViT-L-SAM as the baseline.<br>
+We provide SIU training weights with SimpleBaseline, HRNet, and EfficientViT-L-SAM as the baseline.<br>
 
 | Methods | Backbone | Input Size | body AP (%)| foot AP (%)| face AP (%)| hand AP (%)| whole-body AP (%)| FLOPs | Params | FPS (f/s)| weights |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | ---: |
