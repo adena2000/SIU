@@ -11,10 +11,10 @@ Computer Science and Engineering, Nanjing University of Science and Technology
 <p align="justify">
 
 ## The overall architecture
-![The overall architecture](https://github.com/adena2000/SIU/blob/main/assets/overall.png)<br>
+![The overall architecture](https://github.com/adena2000/SIU/blob/main/assets/fig2.png)<br>
 
 ## Qualitative results
-![Qualitative results](https://github.com/adena2000/SIU/blob/main/assets/results.png)<br>
+![Qualitative results](https://github.com/adena2000/SIU/blob/main/assets/fig4.png)<br>
 
 ## Quantitative results and training weights<br>
 We provide SIU training weights with SimpleBaseline, HRNet, and EfficientViT-L-SAM as the baseline.<br>
@@ -24,21 +24,21 @@ We provide SIU training weights with SimpleBaseline, HRNet, and EfficientViT-L-S
 | SimpleBaseline| ResNet-50 | 256 × 192| 65.2 | 61.5 | 60.6 | 46.0 | 52.1 | 5.5G |34.0M | 1212.6 | - | 
 | SIUours | ResNet-50 | 256 × 192 | 66.7 | 62.8 | 61.6 | 48.3 | 53.7 | 4.2G | 23.6M | 1517.0| [weight](https:) | 
 | SimpleBaseline | ResNet-50 | 384 × 288 | 66.6 | 63.4 | 73.1 | 53.6 | 57.4 | 12.5G | 34.0M | 558.4 | - | 
-| SIUours | ResNet-50 | 384 × 288 | 67.4 | 66.3 | 73.0 | 54.7 | 58.1 | 9.4G | 23.6M | 700.9 | [weight](https:) | 
+| SIUours | ResNet-50 | 384 × 288 | 67.4 | 66.3 | 73.0 | 54.7 | 58.1 | 9.4G | 23.6M | 700.9 | [weight](https://drive.google.com/file/d/1xD85Am6gXJvtGNMhPeT0wLO70Ldi17SE/view?usp=sharing) | 
 | SimpleBaseline | ResNet-101 | 256 × 192 | 66.9 | 63.7 | 61.1 | 46.4 | 53.1 | 9.2G | 53.0M | 804.3 | - | 
 |SIUours | ResNet-101 |256 × 192 |68.9 | 66.8 | 62.5 | 49.6 | 55.4 | 7.8G |42.5M |926.7|[weight](https:)| 
 |SimpleBaseline |ResNet-101 |384 × 288 |69.2 | 68.0 | 74.6 | 54.8 | 59.7 | 20.7G | 53.0M | 370.4 | - | 
 |SIUours |ResNet-101 |384 × 288 |70.8 | 70.9 | 74.8 | 56.8 | 61.2 | 17.6G |42.5M |428.6|[weight](https:)| 
 |HRNet |HRNet-W32 |256 × 192 |67.8 | 54.3 | 63.0 | 46.7 | 53.6 | 7.7G |28.5M |750.2| - | 
-|SIUours |HRNet-W32 |256 × 192 |69.4 | 46.1 | 63.4 | 46.8 | 54.3 | 7.4G |26.6M |753.0|[weight](https:)| 
+|SIUours |HRNet-W32 |256 × 192 |69.4 | 46.1 | 63.4 | 46.8 | 54.3 | 7.4G |26.6M |753.0|[weight](https://drive.google.com/file/d/10XQQGvckeaXaD3D60iqU7teE8fali039/view?usp=sharing))| 
 |HRNet |HRNet-W32 |384 × 288 |70.0 | 58.5 | 72.6 | 51.5 | 58.6 | 17.3G |28.5M |337.3|-| 
-|SIUours |HRNet-W32 |384 × 288 |71.4 | 59.6 | 72.2 | 51.3 | 59.4 | 16.6G |26.6M |337.9|[weight](https:)| 
+|SIUours |HRNet-W32 |384 × 288 |71.4 | 59.6 | 72.2 | 51.3 | 59.4 | 16.6G |26.6M |337.9|[weight](https://drive.google.com/file/d/1oTDJePZ72s-xNX1gREzSCVek9CMOq5x5/view?usp=sharing)| 
 |HRNet |HRNet-W48 |256 × 192 |70.1 |67.5 |65.6 |53.5 |57.9 |15.8G |63.6M |430.0|-| 
-|SIUours |HRNet-W48 |256 × 192 |71.0 | 71.1 | 65.1 | 54.4 | 58.6 | 15.1G |59.2M |436.5|[weight](https:)| 
+|SIUours |HRNet-W48 |256 × 192 |71.0 | 71.1 | 65.1 | 54.4 | 58.6 | 15.1G |59.2M |436.5|[weight](https://drive.google.com/file/d/1X1bNUa4HMXTDKW0ozNb8IkH4NkNCyx_o/view?usp=sharing)| 
 |HRNet |HRNet-W48 |384 × 288| 72.2 | 69.6 | 77.6 | 58.8 | 63.2 | 35.5G |63.6M |196.2|-| 
-|SIUours |HRNet-W48 |384 × 288| 73.0 | 74.5 | 77.4 | 58.8 | 64.0 | 33.9G| 59.2M |199.4|[weight](https:)| 
-|EfficientViT-L0-SAM |EfficientViT-L0 |384 × 288 |70.5 | 71.1 | 75.3 | 56.4 | 61.2 | 12.7G |32.0M |526.8|[weight](https:)| 
-|SIUours |EfficientViT-L0 |384 × 288 |71.0 | 70.9|75.6 |57.8| 61.8 | 10.3G | 27.9M |616.0 |[weight](https:)| 
+|SIUours |HRNet-W48 |384 × 288| 73.0 | 74.5 | 77.4 | 58.8 | 64.0 | 33.9G| 59.2M |199.4|[weight](https://drive.google.com/file/d/1pXIo6r2H7XvE9ifjoyUxPqlG4SVQPEvV/view?usp=sharing)| 
+|EfficientViT-L0-SAM |EfficientViT-L0 |384 × 288 |70.5 | 71.1 | 75.3 | 56.4 | 61.2 | 12.7G |32.0M |526.8|[weight](https://drive.google.com/file/d/1zSaxJX8U7TpTjBIl4qR_wx64SpQW-vyZ/view?usp=sharing)| 
+|SIUours |EfficientViT-L0 |384 × 288 |71.0 | 70.9|75.6 |57.8| 61.8 | 10.3G | 27.9M |616.0 |[weight](https://drive.google.com/file/d/1DxUBh8j4HV5LPprJtmnWnnxjugsl0y8E/view?usp=sharing)| 
 
 ## Installation<br>
 #### - Install SIU-main from source<br>
