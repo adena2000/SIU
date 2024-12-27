@@ -68,8 +68,11 @@ bash ./tools/dist_train.sh [--CONFIG_FILE] [--GPU_NUM]
 ```
 bash ./tools/dist_test.sh [--CONFIG_FILE] [--GPU_NUM] [--GPU_NUM]
 ```
+## Demonstration of this method in real-world applications.
+<https://vsdl.hkust.edu.hk/demos/>
 
 ## Acknowledgement<br>
  Thanks [MMPose](https://github.com/open-mmlab/mmpose) teams for the wonderful open source project!
 ## Bibtex
-If you find this work useful for your research, please cite our paper:<br>
+If you find this work useful for your research, please cite our paper:<be>
+
